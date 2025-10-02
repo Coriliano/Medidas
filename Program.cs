@@ -1,0 +1,13 @@
+﻿double cm, m, km;
+Console.Write("Entre com a medida (em metros): ");
+string entrada = Console.ReadLine();
+m = Convert.ToDouble(entrada);
+cm = m * 100;
+km = m / 1000;
+Console.WriteLine("equivalência");
+Console.Write(cm);
+Console.WriteLine(" cm");
+Console.Write(m);
+Console.WriteLine(" m");
+Console.Write(km);
+Console.WriteLine(" km");
